@@ -97,7 +97,7 @@ header{
 }
 
 .flowers-container{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -296,4 +296,50 @@ header{
     margin-right: 20px;
     padding-left: 20px;
     border-radius: 8px;
+}
+
+
+/* FOOTER SECTION */
+footer {
+    /* border: solid red; */
+    background: #111010;
+    padding: 100px 0;
+}
+
+.footer-container {
+    /* border: solid blue; */
+    width :80%;
+    margin: 0 auto;
+}
+
+.footer-container h2 {
+    color: white;
+}
+
+.footer-container span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;  
+    font-weight: 800;
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-text-last {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px; 
+    font-weight: 400;
+    text-align: center;
+    
 }
